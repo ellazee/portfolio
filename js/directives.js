@@ -2,7 +2,7 @@
 angular.module('navbar', []).directive('navbar', function() {
 	return {
 	restrict: 'E',
-	templateUrl: 'views/partials/navbar.html',
+	templateUrl: 'views/partials/navbar2.html',
 	}
 });
 

@@ -34,12 +34,15 @@ p {
 #triangle-bottomleft { 
   width: 0; 
   height: 0; 
+  border-bottom: ;
   border-bottom: 600px solid #B784A7; 
   border-right: 600px solid transparent;
 }
 
 .navbar {
-	
+	color: transparent;
+  background: transparent;
+}
 }
 .fa { 
 	font-size: 30px;
