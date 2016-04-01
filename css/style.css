@@ -1,0 +1,79 @@
+body {
+/*	background-image: url("images/lowcontrastbeardytree.jpg");
+	background-size: cover;*/
+	background: #c0dfd9;
+	color: white;
+	animation: fadeIn 2s;
+}
+#wordbox {
+  height: 400px;
+  width: 90%;
+  overflow: hidden;
+  background: #b3c2bf;
+}
+.words {
+	padding-top: 1em;
+
+}
+.centerit {
+	text-align: center;
+}
+h1 {
+	padding-left: 1em;
+	text-align: center;
+}
+.montserrat { 
+	font-family: Montserrat; 
+}
+p {
+	padding: 1em;
+	font-size: 1.3em;
+	font-family: Courier New;
+}
+
+#triangle-bottomleft { 
+  width: 0; 
+  height: 0; 
+  border-bottom: 600px solid #B784A7; 
+  border-right: 600px solid transparent;
+}
+
+.navbar {
+	
+}
+.fa { 
+	font-size: 30px;
+ }
+ .footerbody {
+ 	color: #b3c2bf;
+ 	text-align: center;
+ 	margin-top: 50px;
+
+ }
+ .form-group {
+ 	color: #e9ece5;
+ }
+
+.projects {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+ a {
+ 	color: #9fa8a3;
+ }
+ .dev {
+	animation: rotateInDownLeft 1.5s;
+}
+i {
+	padding: 20px;
+}
+.projects a {
+	color: white;
+	font-size: 1.5em;
+}
+.aboutme {
+	border-radius: 50%;
+}
+
