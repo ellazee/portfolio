@@ -1,8 +1,8 @@
 var EllaApp = angular.module("EllaApp", ["ui.router", "navbar", "footer"])
 
-.config(
-	// '$stateProvider',
-	// '$urlRouterProvider',
+.config([
+	'$stateProvider',
+	'$urlRouterProvider',
 	function($stateProvider, $urlRouterProvider) {
 		$urlRouterProvider.otherwise('/');
 
@@ -32,4 +32,4 @@ var EllaApp = angular.module("EllaApp", ["ui.router", "navbar", "footer"])
 				templateUrl: "views/projects.html"
 			})
 	}
-);
+]);

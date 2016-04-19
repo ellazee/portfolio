@@ -5,6 +5,44 @@ body {
 	color: white;
 	animation: fadeIn 2s;
 }
+/*.tester {
+	font-family: Goudy;
+	font-size: 40px;
+}
+.spinning {
+	animation: pulse 1s;
+}*/
+.navbar {
+	font-size: 8px;
+	color: transparent;
+  background: transparent;
+  font-family: Raleway;
+}
+
+.navbar li.link-home a:hover {
+	/*border-radius: 50%;*/
+	background-color: #f2efe8;
+	font-weight: bold;
+	color: black;
+}
+.navbar li.link-about a:hover {
+	/*border-radius: 50%;*/
+	background-color: #c2d4d8;
+	color: white;
+}
+
+.navbar li.link-work a:hover {
+	/*border-radius: 50%;*/
+	background-color: #dbe9d8;
+	color: white;
+}
+
+.navbar li.link-contact a:hover {
+	/*border-radius: 50%;*/
+	background-color: #b0aac2;
+	color: white;
+}
+
 #wordbox {
   height: 400px;
   width: 90%;
@@ -18,8 +56,13 @@ body {
 .centerit {
 	text-align: center;
 }
-h1 {
+
+.leftspace {
 	padding-left: 1em;
+}
+
+h1 {
+
 	text-align: center;
 }
 .montserrat { 
@@ -31,6 +74,8 @@ p {
 	font-family: Courier New;
 }
 
+
+
 #triangle-bottomleft { 
   width: 0; 
   height: 0; 
@@ -39,13 +84,9 @@ p {
   border-right: 600px solid transparent;
 }
 
-.navbar {
-	color: transparent;
-  background: transparent;
-}
-}
 .fa { 
 	font-size: 30px;
+
  }
  .footerbody {
  	color: #b3c2bf;
@@ -54,6 +95,7 @@ p {
 
  }
  .form-group {
+ 	text-align: center;
  	color: #e9ece5;
  }
 
@@ -63,7 +105,7 @@ p {
 	margin-top: 20px;
 }
 
- a {
+a {
  	color: #9fa8a3;
  }
  .dev {
@@ -78,5 +120,8 @@ i {
 }
 .aboutme {
 	border-radius: 50%;
+}
+.divider {
+	color: #e3e0cf;
 }
 
