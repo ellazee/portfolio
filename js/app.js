@@ -3,7 +3,8 @@ var EllaApp = angular.module("EllaApp", ["ui.router", "navbar", "footer"])
 .config([
 	'$stateProvider',
 	'$urlRouterProvider',
-	function($stateProvider, $urlRouterProvider) {
+	'$locationProvider',
+	function($stateProvider, $urlRouterProvider, $locationProvider) {
 		$urlRouterProvider.otherwise('/');
 
 		$stateProvider.state('main', {
@@ -33,3 +34,4 @@ var EllaApp = angular.module("EllaApp", ["ui.router", "navbar", "footer"])
 			})
 	}
 ]);
+

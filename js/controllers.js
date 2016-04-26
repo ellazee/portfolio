@@ -167,8 +167,4 @@ EllaApp.controller('homeCtrl', [
 		//   type: 'char'
 		// });	
 	}
-])
-
-// EllaApp.controller('HomeCtrls', ['$scope', function($scope) {
-
-// }]);
+]);
