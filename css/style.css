@@ -2,6 +2,7 @@ body {
 /*	background-image: url("images/lowcontrastbeardytree.jpg");
 	background-size: cover;*/
 	background: #c0dfd9;
+/*	background: #acc8c3;*/
 	color: white;
 	animation: fadeIn 2s;
 }
@@ -56,11 +57,24 @@ body {
 .centerit {
 	text-align: center;
 }
+.hello {
+	margin-top: 2em;
+	font-size: 1.5em;
+}
+
+.description {
+	font-size: 1.5em;
+}
+.aboutpage {
+	color: #606f6c;
+}
 
 .leftspace {
 	padding-left: 1em;
 }
-
+.ella {
+	letter-spacing: .175em;
+}
 h1 {
 
 	text-align: center;
@@ -69,12 +83,16 @@ h1 {
 	font-family: Montserrat; 
 }
 p {
-	padding: 1em;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-family: Courier New;
 }
 
-
+.skillz {
+	font-style: italic;
+}
+.spaceit {
+	margin-top: 1.5em;
+}
 
 #triangle-bottomleft { 
   width: 0; 
@@ -140,6 +158,9 @@ i {
 }
 .party {
 	background: #01B0F0 no-repeat center center;
+}
+.dfw {
+	background: #ffeb3b no-repeat center center;
 }
 .view .mask {
 		width: 100%;
