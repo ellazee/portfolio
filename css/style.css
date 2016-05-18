@@ -66,8 +66,21 @@ body {
 	font-size: 1.5em;
 }
 .aboutpage {
-	color: #606f6c;
+	color: #8f9b98;
 }
+
+.aboutpage h2 {
+	color: white;
+}
+.aboutpage h5 {
+	color: #a5afac;
+	font-weight: bold;
+}
+/*.resume {
+	color: white;
+}*/
+
+
 
 .leftspace {
 	padding-left: 1em;
@@ -87,9 +100,9 @@ p {
 	font-family: Courier New;
 }
 
-.skillz {
+/*.skillz {
 	font-style: italic;
-}
+}*/
 .spaceit {
 	margin-top: 1.5em;
 }

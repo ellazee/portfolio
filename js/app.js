@@ -32,6 +32,12 @@ var EllaApp = angular.module("EllaApp", ["ui.router", "navbar", "footer"])
 				url: "/projects",
 				templateUrl: "views/projects.html"
 			})
+		.state(
+			"work",
+			{
+				url: "/things",
+				templateUrl: "views/projects2.html"
+			})
 	}
 ]);
 
